@@ -1,6 +1,6 @@
 <script setup>
   import {ref} from "vue";
-  const apiUrl = process.env.VITE_API_URL;
+  const apiUrl = import.meta.env.VITE_API_URL;
   const menuCode = ref(0);
   const menu = ref('');
 
